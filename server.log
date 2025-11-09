@@ -1,0 +1,50 @@
+[2025-11-08 18:05:51] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 18:06:09] Recv PID=50668 op=add a=2 b=4 resp_fifo=/tmp/arith_resp_50668.fifo
+[2025-11-08 18:06:09] Sent result=6 to /tmp/arith_resp_50668.fifo
+[2025-11-08 18:06:54] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 18:07:08] Recv PID=51279 op=mul a=2 b=3 resp_fifo=/tmp/arith_resp_51279.fifo
+[2025-11-08 18:07:08] Sent result=6 to /tmp/arith_resp_51279.fifo
+[2025-11-08 18:08:29] Recv PID=51279 op=div a=6 b=3 resp_fifo=/tmp/arith_resp_51279.fifo
+[2025-11-08 18:08:29] Sent result=2 to /tmp/arith_resp_51279.fifo
+[2025-11-08 18:38:30] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 18:39:24] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 18:39:24] Recv PID=52621 op=add a=3 b=4 resp=/tmp/arith_resp_52621.fifo
+[2025-11-08 18:39:24] child(52625) sent result=7
+[2025-11-08 18:39:36] Recv PID=52621 op=mul a=40 b=50 resp=/tmp/arith_resp_52621.fifo
+[2025-11-08 18:39:36] child(52633) sent result=2000
+[2025-11-08 19:01:15] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 19:01:15] Recv PID=53604 op=add a=2 b=3 resp=/tmp/arith_resp_53604.fifo
+[2025-11-08 19:01:15] child(53613) sent result=5
+[2025-11-08 19:03:17] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 19:03:17] Recv PID=54394 op=add a=2 b=5 resp=/tmp/arith_resp_54394.fifo
+[2025-11-08 19:03:17] child(54427) sent result=7
+[2025-11-08 19:11:13] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 19:11:13] Recv PID=55155 op=add a=4 b=5 resp=/tmp/arith_resp_55155.fifo
+[2025-11-08 19:11:13] child(55167) sent result=9
+[2025-11-08 19:11:31] Recv PID=55155 op=add a=1 b=2 resp=/tmp/arith_resp_55155.fifo
+[2025-11-08 19:11:31] child(55177) sent result=3
+[2025-11-08 19:11:42] Recv PID=55155 op=add a=3 b=6 resp=/tmp/arith_resp_55155.fifo
+[2025-11-08 19:11:42] child(55186) sent result=9
+[2025-11-08 19:14:50] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 19:14:50] Recv PID=55739 op=add a=4 b=5 resp=/tmp/arith_resp_55739.fifo
+[2025-11-08 19:14:50] child(55748) sent result=9
+[2025-11-08 19:15:04] Recv PID=55739 op=add a=1 b=2 resp=/tmp/arith_resp_55739.fifo
+[2025-11-08 19:15:04] child(55757) sent result=3
+[2025-11-08 19:19:18] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 19:19:18] Recv PID=56523 op=add a=4 b=8 resp=/tmp/arith_resp_56523.fifo
+[2025-11-08 19:19:18] child(56536) sent result=12
+[2025-11-08 19:21:45] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 19:21:45] Recv PID=58110 op=add a=5 b=7 resp=/tmp/arith_resp_58110.fifo
+[2025-11-08 19:21:45] child(58132) sent result=12
+[2025-11-08 19:21:54] Recv PID=58110 op=add a=7 b=8 resp=/tmp/arith_resp_58110.fifo
+[2025-11-08 19:21:54] child(58141) sent result=15
+[2025-11-08 19:23:44] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 19:23:44] Recv PID=59001 op=add a=3 b=8 resp=/tmp/arith_resp_59001.fifo
+[2025-11-08 19:23:44] child(59025) sent result=11
+[2025-11-08 19:27:21] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 19:27:21] Recv PID=59696 op=add a=4 b=6 resp=/tmp/arith_resp_59696.fifo
+[2025-11-08 20:27:46] Server started; listening on /tmp/arith_req_fifo
+[2025-11-08 20:27:46] Recv PID=61111 op=add a=30 b=45 resp=/tmp/arith_resp_61111.fifo
+[2025-11-08 20:27:53] Recv PID=61111 op=sub a=70 b=48 resp=/tmp/arith_resp_61111.fifo
+[2025-11-08 20:28:03] Recv PID=61111 op=mul a=11 b=11 resp=/tmp/arith_resp_61111.fifo
+[2025-11-08 20:28:11] Recv PID=61111 op=div a=3000 b=10 resp=/tmp/arith_resp_61111.fifo
